@@ -20,15 +20,6 @@ describe('Plugin', () => {
 
   describe('onCreatePage', () => {
     describe('deletePage', () => {
-      it('is called for /404/ path', () => {
-        const page = { path: '/404/' }
-
-        onCreatePage({ page, actions })
-
-        expect(deletePage).toHaveBeenCalledWith(page)
-        expect(createPage).not.toHaveBeenCalled()
-      })
-
       it('is called for /dev-404-page/ path', () => {
         const page = { path: '/dev-404-page/' }
 

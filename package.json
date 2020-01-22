@@ -1,15 +1,15 @@
 {
-  "name": "gatsby-disable-404",
-  "version": "0.0.0",
-  "description": "Disable 404 pages for Gatsby websites",
+  "name": "gatsby-disable-dev-404",
+  "version": "1.0.0",
+  "description": "Disable dev 404 pages for Gatsby websites",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sbstjn/gatsby-disable-404.git"
+    "url": "https://github.com/antoinegomez/gatsby-disable-dev-404"
   },
   "bugs": {
-    "url": "https://github.com/sbstjn/gatsby-disable-404/issues"
+    "url": "https://github.com/antoinegomez/gatsby-disable-dev-404/issues"
   },
-  "homepage": "https://github.com/sbstjn/gatsby-disable-404",
+  "homepage": "https://github.com/antoinegomez/gatsby-disable-dev-404",
   "scripts": {
     "test": "jest",
     "test:cover": "jest --coverage",
@@ -23,6 +23,13 @@
     "gatsby-plugin"
   ],
   "author": "Sebastian Müller <mail@sbstjn.com>",
+  "contributors": [
+    {
+      "name": "Antoine Gomez",
+      "email": "antoine@gomez.lu",
+      "url": "https://github.com/antoinegomez"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^20.0.5",

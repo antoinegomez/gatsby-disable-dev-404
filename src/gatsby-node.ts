@@ -15,7 +15,7 @@ export interface OnCreatePageParams {
 export const onCreatePage = ({ page, actions }: OnCreatePageParams) => {
   const { deletePage, createPage } = actions
 
-  if (page.path === '/404/' || page.path === '/dev-404-page/') {
+  if (page.path === '/dev-404-page/') {
     deletePage(page)
   } else {
     createPage(page)
